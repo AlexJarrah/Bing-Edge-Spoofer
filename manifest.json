@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Bing Edge Spoofer",
+    "version": "1.0",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.bing.com/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
